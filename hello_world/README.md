@@ -1,4 +1,4 @@
-# ETL Serverless with AWS
+# Hello World Serverless with AWS
 - This project has only the purpose to study how FAAS can be used instead off a server application.
 
 ## Intro
