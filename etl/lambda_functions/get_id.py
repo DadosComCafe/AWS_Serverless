@@ -1,6 +1,7 @@
 from pymongo import MongoClient
-user = "dadoscomcafedev"
-password = "my_pass"
+import os
+user = os.getenv("USER")
+password = os.getenv("PASSWORD")
 myclient = MongoClient(f"mongodb+srv://{user}:{password}@dadoscomcafe.3vicyiz.mongodb.net/")
 
 mydb = myclient["youtubecomments"]
